@@ -1,0 +1,500 @@
+   43  ls -l
+   44  mkdir gcc
+   45  cd gcc
+   46  ls
+   47  touch main.c
+   48  gedit main.c
+   49  gcc main.c -o program
+   50  ./program
+   51  ls
+   52  rm program
+   53  gedit main.c
+   54  gcc main.c -o program
+   55  gcc main.c -o program
+   56  ./program
+   57  gcc main.c -o program
+   58  gcc main.c -o program -I~/include_path/
+   59  gcc main.c -o program -I/~/include_path/
+   60  gcc main.c -o program -I/usr/home/include_path/
+   61  gcc main.c -o program -I/home/ko/include_path/
+   62  ./prgroam
+   63  rm program
+   64  ./prgroam
+   65  gcc main.c -o program -I/home/ko/include_path/
+   66  ./program
+   67  printenv C_INCLUDE_PATH
+   68  printenv LD_LIBRARY_PATH
+   69  echo $(LD_LIBRARY_PATH)
+   70  exit
+   71  sudo apt-get update
+   72  sudo apt-get upgrade
+   73  sudo apt-get dist-upgrade
+   74  sudo apt-get update
+   75  sudo apt-get upgrade
+   76  sudo apt-get dist-upgrade
+   77  exit
+   78  ls
+   79  cd /
+   80  ls
+   81  cd usr
+   82  ls
+   83  cd /
+   84  cd home
+   85  ls
+   86  cd ko
+   87  cd Desktop
+   88  rm *.html
+   89  glue
+   90  ls
+   91  cd gcc
+   92  ls
+   93  ./program
+   94  cd ..
+   95  cd myproject
+   96  ls
+   97  cd ..
+   98  cd Desktop
+   99  ls
+  100  cd Hw1
+  101  ls
+  102  cd Week4
+  103  ls
+  104  cd project
+  105  ls
+  106  ./program
+  107  exec program
+  108  man ar
+  109  ls res
+  110  exit
+  111  cd Desktop
+  112  ls
+  113  ls
+  114  cd Hw1/Week5
+  115  ls
+  116  ls
+  117  ls -l
+  118  cd ~/crossCompile
+  119  clear
+  120  cd ~/gcc/crossCompile
+  121  ls
+  122  ls
+  123  touch main.c
+  124  gedit main.c
+  125  docker
+  126  sudo apt-get install docker
+  127  docker
+  128  sudo apt-get install docker
+  129  docker help
+  130  help docker
+  131  docker run ubuntu /bin/echo 'hello'
+  132  sudo apt-get install docker
+  133  docker run
+  134  uname -r
+  135  sudo apt-get update
+  136  sudo apt-get install apt-transport-https ca-certificates
+  137  sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+  138  gedit /etc/apt/sources.list.d/docker.list
+  139  sudo echo deb https://get.docker.com/ubuntu docker main > /etc/apt/sources.list.d/docker.list
+  140  gedit /etc/apt/sources.list.d/docker.list
+  141  printenv
+  142  printenv | grep "C_INCLUDE"
+  143  ls -l
+  144  cd gcc
+  145   ls -l
+  146  rm program
+  147  gcc main.c -o program
+  148  C_LIBRARY_PATH=/home/ko/include_path/c
+  149  export C_LIBRARY_PATH
+  150  echo $C_LIBRARY_PATH
+  151  gcc main.c -o program
+  152  gcc main.c -o program
+  153  printenv | grep "C_LIBRARY"
+  154  printenv | grep "C_LIBRARY"
+  155  gcc main.c -o program
+  156  undo C_LIBRARY_PATH
+  157  C_INCLUDE_PATH=/home/ko/include_path/c
+  158  export C_INCLUDE_PATH
+  159  echo $C_INCLUDE_PATH
+  160  gcc main.c -o program
+  161  ./program
+  162  gcc main.c -o program
+  163  gcc main.c -o program
+  164  gcc main.c -o program
+  165  ls -l
+  166  gcc main.c -o program
+  167  gcc main.c -o program -L/home/ko/include_path/c/ -ldog -static -o staticProgram
+  168  ./staticProgram
+  169  gcc main.c -o program -L/home/ko/include_path/c/ -ldog -o staticProgram
+  170  gcc main.c -o program -L/home/ko/include_path/c/ -ldog -static -o staticProgram
+  171  gcc main.c -o program -L/home/ko/include_path/c/ -ldog -o dynamicProgram
+  172  ./dynamicProgram
+  173  ls
+  174  ./dynamicProgram
+  175  LD_LIBRARY_PATH=.
+  176  ./dynamicProgram
+  177  LD_LIBRARY_PATH=/home/ko/include_path/c/
+  178  ./dynamicProgram
+  179  export LD_LIBRARY_PATH
+  180  ./dynamicProgram
+  181  ls -l
+  182  rm staticProgram
+  183  rm dynamicProgram
+  184  gcc main.c -o program -ldog -o staticProgram
+  185  gcc main.c -o program -ldog -static -o staticProgram
+  186  gcc main.c -o program -L/home/ko/include_path/c/ -ldog -static -o staticProgram
+  187  echo $C_INCLUDE_PATH
+  188  gcc main.c -o program -L/home/ko/include_path/c/ -ldog -o staticProgram
+  189  ./staticProgram
+  190  ./staticProgram
+  191  rm staticProgram
+  192  gcc main.c -o program -L/home/ko/include_path/c/ -ldog -o staticProgram
+  193  ./staticProgram
+  194  rm staticProgram
+  195  gcc main.c -o program -ldog -o staticProgram
+  196  gcc main.c -o program -L/home/ko/include_path/c/ -o staticProgram
+  197  gcc main.c -o program -L/home/ko/include_path/c/ -ldog -o staticProgram
+  198  printenv | grep C_INCLUDE
+  199  C_INCLUDE_PATH=/home/ko/include_path/c/
+  200  printenv | grep C_INCLUDE
+  201  export C_INCLUDE_PATH
+  202  printenv | grep C_INCLUDE
+  203  gcc main.c -o program -ldog -o staticProgram
+  204  ls
+  205  gcc main.c -o program -ldog -static -o staticProgram
+  206  gcc main.c -o program -ldog -o staticProgram
+  207  gcc main.c -o program -ldog -o staticProgram
+  208  echo $LD_LIBRARY_PATH
+  209  gcc main.c -o program -ldog -static -o staticProgram
+  210  gcc main.c -ldog -static -o staticProgram
+  211  gcc main.c -ldog -o staticProgram
+  212  printenv C_INCLUDE_PATH
+  213  gcc main.c -o program -ldog
+  214  ls -l
+  215  gcc main.c -o program -ldog -L~/include_path/c/
+  216  gcc main.c -o program -ldog -L/home/ko/include_path/c/
+  217  ./program
+  218  printenv C_INCLUDE_PATH
+  219  cat main.c
+  220  gcc main.c -o program -ldog 
+  221  printenv LD_LIBRARY_PATH
+  222  printenv LIBRARY_PATH
+  223  LIBRARY_PATH=/home/ko/include_path/c/
+  224  export LIBRARY_PATH
+  225  gcc main.c -o program -ldog 
+  226  ./program
+  227  gcc main.c -o program -ldog 
+  228  ./program
+  229  gcc main.c -o program -static -ldog 
+  230  ./program
+  231  ./program
+  232  gcc main.c -o program -static -ldog 
+  233  gcc main.c -o program -ldog 
+  234  gcc main.c -o program -static -ldog 
+  235  ./program
+  236  gcc main.c -o program -ldog 
+  237  ./program
+  238  history
+  239  history | grep "ar"
+  240  gcc main.c -o program -ldog  -v
+  241  ldd program
+  242  ls
+  243  mkdir ar
+  244  cd ar
+  245  cd ..
+  246  cd /
+  247  cd home
+  248  cd ko
+  249  cd include_path
+  250  cd c
+  251  ls -l
+  252  ls -l
+  253  gcc -c dog.c -o dog.o
+  254  ls
+  255  ar rcs libdog.a dog.o
+  256  ls
+  257  gcc -c -fPIC dog.c -o dog.o
+  258  ls
+  259  gcc -shared -W1,-soname,libdog.so.1 -o libdog.so.1.0.1 dog.o
+  260  gcc -shared dog.o -o 
+  261  gcc -shared dog.o -o libdog.so
+  262  ls
+  263  gcc -shared dog.o -o libdog.so
+  264  gcc -shared dog.o -o libdog.so -v
+  265  ls
+  266  nm libdog.so
+  267  cpp -v
+  268  cd gcc/linkerPractice
+  269  cd test
+  270  ls
+  271  ./program
+  272  /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o program /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. main.o file2.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+  273  /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o program /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. hello.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+  274  ./program
+  275  gcc --version
+  276  ls
+  277  rm *
+  278  ls
+  279  cpp hello.c > hello.i
+  280  gcc -S hello.i
+  281  as -o hello.o hello.s
+  282  ld -o hello hello.o -lc
+  283  ld -o hello hello.o -lc -entry main
+  284  /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o program /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. hello.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+  285  ./hello
+  286  ld -o program hello.o -lc -entry main
+  287  /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o program /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. hello.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+  288  ./program
+  289  history
+  290  ls
+  291  find .
+  292  find . ~ -name "hello.c" -type f -exec rm -f {} +
+  293  ls
+  294  find . ! -name "hello.c" -type f -exec rm -f {} +
+  295  ls
+  296  cp ../hello.c .
+  297  cp ../main.c .
+  298  mv main.c hello.c
+  299  ls
+  300  cd gcc/linkderPractice
+  301  cd gcc/linkerPractice
+  302  gcc main.c -o program
+  303  ./program
+  304  cat main.c
+  305  ./program
+  306  gcc main.c -o program
+  307  gcc main.c -o program
+  308  gcc main.c -o program
+  309  gcc main.c -o program
+  310  gcc main.c cool.c -o program
+  311  ./program
+  312  rm program
+  313  gcc -c main.c -o main.o
+  314  gcc -c cool.c -o cool.o
+  315  ld -o program main.o cool.o -lc
+  316  ./program
+  317  ld -o program main.o cool.o -lc
+  318  gnoe-terminal
+  319  gnome-terminal
+  320  gnome-terminal --tile="Some"
+  321  gnome-terminal --title="Some"
+  322  ld -o program main.o cool.o -lc
+  323  ld -o program main.o cool.o -lc --entry mai
+  324  ld -o program main.o cool.o -lc --entry main
+  325  ./program
+  326  ld -o program main.o cool.o -lc --entry main
+  327  ls -l
+  328  ./program
+  329  ls
+  330  ./program
+  331  history | grep "-I"
+  332  ls
+  333  rm *
+  334  ls
+  335  ls
+  336  ls -al
+  337  touch main.c
+  338  gedit main.c
+  339  cat main.c
+  340  cpp hello.c > hello.i
+  341  cpp main.c > main.i
+  342  cat main.i
+  343  gedit main.c
+  344  cat main.i
+  345  cpp main.c > main.i
+  346  cat main.i
+  347  touch cool.h
+  348  gedit cool.h
+  349  gedit main.c
+  350  cpp main.c > main.i
+  351  cat main.i
+  352  gcc -S main.i
+  353  ls
+  354  cat main.s
+  355  as -o main.o main.s
+  356  cat main.o
+  357  gedit main.o
+  358  nm main.o
+  359  ld -o program main.o
+  360  ./program
+  361  ls
+  362  rm *.i *.o *.s
+  363  ls
+  364  rm program
+  365  gedit main.c
+  366  cp main.c hello.c
+  367  cpp hello.c > hello.i
+  368  cat hello.i
+  369  cpp hello.c
+  370  gcc -S hello.i
+  371  ls
+  372  cat hello.s
+  373  as -o hello.o hello.s
+  374  ls
+  375  ld -o program hello.o
+  376  ld -o program hello.o -v
+  377  ld -o program hello.o --entry main
+  378  ./program
+  379  ls
+  380  rm hello.* program
+  381  ls
+  382  cp main.c hello.c
+  383  cpp hello.c > hello.i
+  384  gcc -S hello.i -entry main
+  385  gcc -S hello.i --entry main
+  386  as -o hello.o hello.s
+  387  ld -o hello hello.o
+  388  as -o hello.o hello.s --entry main
+  389  ld -o hello hello.o --entry main
+  390  ./hello
+  391  gcc hello.c -o program
+  392  ./program
+  393  ls -l
+  394  rm hello*
+  395  rm program
+  396  ls
+  397  cp main.c hello.c
+  398  gcc -c hello.c -o hello.o
+  399  ls
+  400  ld hello.o -o hello --entry main
+  401  ./hello
+  402  nm hello.o
+  403  ld hello.o -o hello -lc --entry main
+  404  ./hello
+  405  history
+  406  history | less
+  407  ls
+  408  ld help
+  409  ld hello.o
+  410  ld hello.o -o hello
+  411  ld hello.o --entry main -o hello
+  412  ./hello
+  413  ld hello.o -lc --entry main -o hello
+  414  ./hello
+  415  ld hello.o -lc --entry main -o hello
+  416  ./hello
+  417  ls
+  418  ./hello
+  419  . hello
+  420  nm hello
+  421  ./hello
+  422  rm hello
+  423  gedit hello.c
+  424  cpp hello.c > hello.i
+  425  gcc -S hello.i
+  426  as -o hello.o hello.s
+  427  ld -o hello hello.o
+  428  ./hello
+  429  gedit hello.c
+  430  cpp hello.c > hello.i
+  431  gcc -S hello.i
+  432  as -o hello.o hello.s
+  433  ld -o hello hello.o
+  434  cpp hello.c > hello.i
+  435  gcc -S hello.i 
+  436  as -o hello.o hello.s
+  437  ld -o hello hello.o -lc --entry main
+  438  ./hello
+  439  ls
+  440  ./program
+  441  ./hello
+  442  ld -o hello hello.o -lc
+  443  ld -o hello hello.o -lc --entry main
+  444  ./hello
+  445  ld -o program hello.o -lc --entry main
+  446  mkdir test
+  447  mv program test
+  448  cp hello.o test
+  449  ls
+  450  cp hello.c test
+  451  ls
+  452  gcc hello.c -o hello -v
+  453  ls
+  454  ls
+  455  ./hello
+  456  cd ../ar
+  457  touch main.c
+  458  gedit main.c
+  459  gcc main.c -o program
+  460  readelf-s program
+  461  readelf -s program
+  462  strip -s program
+  463  readelf -s program
+  464  man strip
+  465  strip --strip-debug program
+  466  readelf -s program
+  467  gcc main.c -o program
+  468  strip --strip-debug program
+  469  readelf -s program
+  470  gedit main.c
+  471  gcc main.c -o program
+  472  readelf -a program
+  473  readelf -a program
+  474  readelf -s program
+  475  man ar
+  476  npm
+  477  cd ..
+  478  ls
+  479  cd crossCompile
+  480  ls
+  481  gcc main.c -o program
+  482  ./program
+  483  gcc main.c -o main
+  484  aptitude search mingw
+  485  i586-mingw32msvc-
+  486  i586-mingw32msvc-gcc
+  487  sudo apt-get install mingw32
+  488  ls
+  489  rm main program
+  490  ls
+  491  i586-mingw32msvc-gcc main.c -o main.exe
+  492  ls
+  493  ./main.exe
+  494  touch main_gui_win.c
+  495  gedit main_gui_win.c
+  496  cat main_gui_win.c
+  497  i586-mingw32msvc-gcc main_gui_win.c -o win_hello.exe
+  498  ls
+  499  ls -lha
+  500  i586-mingw32msvc-gcc main_gui_win.c -o win_hello.exe -mwindows
+  501  cd gitrepo
+  502  cd gitRepo
+  503  ssh-keygen -t rsa -C "test@email.com"
+  504  ssh -T git@github.com
+  505  ls
+  506  git init
+  507  ls -l
+  508  git add .
+  509  git status
+  510  git commit -m "initial commit"
+  511  git log
+  512  git remote add origin git@github.com:thenewstockton/308tubeTutorials.git
+  513  git push origin master
+  514  git add .
+  515  git status
+  516  git commit -m "more changes to index"
+  517  get log
+  518  git log
+  519  git push origin master
+  520  ls
+  521  git init
+  522  git log
+  523  git remote add github git@github.com:thenewstockton/308tubeTutorials.git
+  524  git log
+  525  git push github master
+  526  git push github master
+  527  git push github master
+  528  git add.
+  529  git add .
+  530  git push github master
+  531  git commit -m "test commit"
+  532  git push github master
+  533  git commit -m "finished"
+  534  git push github master
+  535  git branch 
+  536  git branch r2_index
+  537  git branch
+  538  git checkoutr2_index
+  539  git checkout r2_index
+  540  git branch
+  541  gedit history
+  542  history >> history.txt
